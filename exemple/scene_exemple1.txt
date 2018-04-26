@@ -1,0 +1,43 @@
+SCENE PARSING RTV1
+##################
+
+########################################
+NO TABULATIONS - ONLY SPACES ARE ALLOWED
+########################################
+
+
+FILE EXEMPLE :
+--------------
+amb      0.4/0.4/0.4
+plane    0.0 1.0 0.0 3.0  1.0/0.0/1.0
+sph      3.0/0.0/5.0      1.0/0.0/1.0     0.2
+cyl      2.0/2.0/3.0      0.0/0.0/1.0     1.0/0.0/0.0     1.0
+cone     0.0/0.0/5.0      1.0/1.0/1.0     1.0/0.0/0.0     1.0
+lux      0.0/0.0/5.0      0.0/0.2/0.2     0.0/0.5/0.5
+lux      2.0/3.0/5.0      0.7/0.7/0.7     0.7/0.7/0.7
+
+
+
+FILE EXPLICATIONS :
+-------------------
+
+Caméra :            position
+EX : cam          0.0/0.0/10.0
+
+Lumière ambiante :       density
+EX : amb               0.4/0.4/0.4
+
+Plane :     a   b   c   d      color
+EX: plane  0.0 1.0 0.0 3.0  1.0/0.0/1.0
+
+Sphere :    Position       color     rayon
+EX: sph    3.0/0.0/5.0  1.0/0.0/1.0  1.0
+
+Cylindre :  Position       color          h       rayon
+EX : cyl   2.0/2.0/3.0  0.0/0.0/1.0  1.0/0.0/0.0  1.0
+
+Cone :      Position       color          h       rayon
+EX : cone  0.0/0.0/5.0  1.0/1.0/1.0  1.0/0.0/0.0  1.0
+
+Lumiere :   Position       Diffuse    Spéculaire
+EX : lux   0.0/0.0/5.0  0.0/0.2/0.2  0.0/0.5/0.5
